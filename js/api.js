@@ -11,7 +11,7 @@ function tagGen(len)
 var SPNAPI = (function(SPNAPI, $, undefined) {
 
     SPNAPI.methods = {};
-    SPNAPI.pages = ["Settings", "eyedea", "Peers","Debug", "Coins"];
+    SPNAPI.pages = ["Settings", "eyedea", "Peers","Debug", "Coins", "TestCreateTab"];
     SPNAPI.pageContent = {};
     SPNAPI.page = "welcome";
     $(document).ready(function() {
