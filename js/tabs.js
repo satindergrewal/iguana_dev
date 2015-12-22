@@ -41,7 +41,7 @@ tabsManagement.createTabs = function() {
 	var commonTabs = document.getElementsByClassName("common-tab");
 	for(var i=0; i < commonTabs.length; i++) {
 		var commonTab = commonTabs[i];
-		tabsManagement.createTab(commonTab, commonTab.childNodes[1].innerHTML);
+		tabsManagement.createTab(commonTab, commonTab.getElementsByTagName("pre")[0].innerHTML);
 	}
 }
 
